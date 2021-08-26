@@ -1,8 +1,8 @@
 export function spooder() {
   let firstRotationDate = new Date('June 11, 2021 00:00:00 GMT+0:00');
 
-  let currentDate = new Date('July 13, 2021 00:00:00 GMT+0:00');
-  // let currentDate = new Date();
+  //let currentDate = new Date('July 13, 2021 00:00:00 GMT+0:00');
+  let currentDate = new Date();
 
   let timeDifference = currentDate.getTime() - firstRotationDate.getTime();
   let daysDifference = Math.floor(timeDifference / (1000 * 3600 * 24));
