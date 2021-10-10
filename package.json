@@ -10,6 +10,8 @@
   "author": "Chad Hamdan",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
+    "cli-progress": "^3.9.0",
     "prompt": "^1.2.0"
   }
 }
